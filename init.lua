@@ -1012,3 +1012,4 @@ require('lazy').setup({
 -- vim: ts=2 sts=2 sw=2 et
 
 vim.keymap.set('n', '<leader>x', ':%source<CR>')
+vim.keymap.set('n', '<leader>x', ':%source<CR>')
