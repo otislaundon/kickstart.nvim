@@ -1,7 +1,21 @@
-vim.g.mapleader = ' ' -- set before all else to make sure nothing is mapped with wrong leader key.
+--  NOTE: Must happen before plugins are loaded (otherwise wrong leader will be used)
+vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
-require("lua.options")
-require("lua.lazy-bootstrap")
-require("lua.lazy-plugins")
-require("lua.remap")
+-- The line beneath this is called `modeline`. See `:help modeline`
+-- vim: ts=2 sts=2 sw=2 et
+
+-- Set to true if you have a Nerd Font installed and selected in the terminal
+vim.g.have_nerd_font = false
+
+-- [[ Setting options ]]
+require 'options'
+
+-- [[ Basic Keymaps ]]
+require 'keymaps'
+
+-- [[ Install `lazy.nvim` plugin manager ]]
+require 'lazy-bootstrap'
+
+-- [[ Configure and install plugins ]]
+require 'lazy-plugins'
