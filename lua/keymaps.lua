@@ -21,3 +21,6 @@ vim.api.nvim_create_autocmd('TextYankPost', {
 
 vim.keymap.set('n', '<leader>pv', ':Ex<CR>')
 vim.keymap.set('n', '<leader>x', ':%source<CR>', { desc = 'Source current file' })
+
+vim.keymap.set('n', '<leader>r', ':w<CR>:term cargo r<CR>G', { desc = 'run current cargo project' })
+vim.keymap.set('n', '<leader>b', ':bn<CR>', { desc = 'go to next buffer' })
