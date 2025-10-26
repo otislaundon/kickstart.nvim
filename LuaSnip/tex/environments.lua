@@ -59,4 +59,18 @@ return {
       }
     )
   ),
+
+  s(
+    { trig = 'proof', dscr = 'A LaTeX proof environment' },
+    fmta(
+      [[
+      \begin{proof}
+          <>
+      \end{proof}
+    ]],
+      {
+        i(1),
+      }
+    )
+  ),
 }
