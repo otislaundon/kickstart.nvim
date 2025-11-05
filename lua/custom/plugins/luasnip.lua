@@ -6,9 +6,4 @@ return {
     -- install jsregexp (optional!).
     build = 'make install_jsregexp',
   },
-  {
-    history = true,
-    region_check_events = 'InsertEnter',
-    delete_check_events = 'TextChanged,InsertLeave',
-  },
 }
