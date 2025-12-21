@@ -8,9 +8,6 @@ vim.g.maplocalleader = ','
 -- Set to true if you have a Nerd Font installed and selected in the terminal
 vim.g.have_nerd_font = false
 
--- [[ Setting options ]]
-require 'options'
-
 -- [[ Basic Keymaps ]]
 require 'keymaps'
 
@@ -19,3 +16,7 @@ require 'lazy-bootstrap'
 
 -- [[ Configure and install plugins ]]
 require 'lazy-plugins'
+
+-- [[ Setting options ]]
+require 'options'
+
