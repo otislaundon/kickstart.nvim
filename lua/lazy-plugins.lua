@@ -83,3 +83,5 @@ require('lazy').setup({
 
 -- NOTE: i dont know where is best to put this line, so putting it here for now.
 require('luasnip.loaders.from_lua').lazy_load { paths = '~/.config/nvim/LuaSnip/' }
+
+require('oil').setup()

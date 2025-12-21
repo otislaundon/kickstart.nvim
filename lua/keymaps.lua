@@ -25,7 +25,7 @@ vim.keymap.set('n', '<leader>x', ':%source<CR>', { desc = 'Source current file' 
 vim.keymap.set('n', '<leader>r', ':w<CR>:term cargo run<CR>G', { desc = 'cargo run current project' })
 vim.keymap.set('n', '<leader>b', ':bn<CR>', { desc = 'go to next buffer' })
 
-vim.keymap.set('n', '<leader>w', ':w<CR>', { desc = '[W]rite current file' })
+vim.keymap.set('n', '<leader>w', ':w<CR>', { desc = '[w]rite current file' })
 
 --luasnip keymaps
 -- Yes, we're just executing a bunch of Vimscript, but this is the officially
