@@ -19,7 +19,7 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   end,
 })
 
-vim.keymap.set('n', '<leader>pv', ':Ex<CR>')
+vim.keymap.set('n', '<leader>pv', ':Oil<CR>')
 vim.keymap.set('n', '<leader>x', ':%source<CR>', { desc = 'Source current file' })
 
 vim.keymap.set('n', '<leader>r', ':w<CR>:term cargo run<CR>G', { desc = 'cargo run current project' })
@@ -39,4 +39,3 @@ smap <silent><expr> <Tab> luasnip#jumpable(1) ? '<Plug>luasnip-jump-next' : '<Ta
 imap <silent><expr> <S-Tab> luasnip#jumpable(-1) ? '<Plug>luasnip-jump-prev' : '<S-Tab>'
 smap <silent><expr> <S-Tab> luasnip#jumpable(-1) ? '<Plug>luasnip-jump-prev' : '<S-Tab>'
 ]]
-
