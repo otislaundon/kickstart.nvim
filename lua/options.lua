@@ -56,6 +56,9 @@ vim.o.splitbelow = true
 vim.o.list = true
 vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
 
+vim.o.tabstop = 4
+vim.o.shiftwidth = 4
+
 -- Preview substitutions live, as you type!
 vim.o.inccommand = 'split'
 
@@ -76,9 +79,3 @@ vim.o.relativenumber = true
 
 -- NOTE: i dont know where is best to put this line, so putting it here for now.
 require('luasnip.loaders.from_lua').lazy_load { paths = '~/.config/nvim/LuaSnip/' }
-
-vim.g.netrw_banner = 0 -- Hide the giant (useless) banner atop netrw
-vim.g.netrw_altv = 1 -- Create the split of the netrw window to the left
-vim.g.netrw_browse_split = 3 -- Open files in previous window. This emulates the typical "drawer" behavior
-vim.g.netrw_liststyle = 1 -- Set the styling of the file list to be that of a tree
-vim.g.netrw_winsize = 14 -- Set the width of the "drawer"
