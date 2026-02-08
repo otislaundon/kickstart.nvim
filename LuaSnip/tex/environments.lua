@@ -1,6 +1,6 @@
 return {
   s(
-    { trig = 'eq', dscr = 'A LaTeX equation environment' },
+    { trig = 'equation', dscr = 'A LaTeX equation environment' },
     fmt( -- The snippet code actually looks like the equation environment it produces.
       [[
       \begin{equation}
@@ -15,7 +15,7 @@ return {
   ),
 
   s(
-    { trig = 'eq*', dscr = 'A LaTeX equation* environment' },
+    { trig = 'equation*', dscr = 'A LaTeX equation* environment' },
     fmt( -- The snippet code actually looks like the equation environment it produces.
       [[
       \begin{equation*}
@@ -30,7 +30,7 @@ return {
   ),
 
   s(
-    { trig = 'al*', dscr = 'A LaTeX equation* environment' },
+    { trig = 'align*', dscr = 'A LaTeX equation* environment' },
     fmt( -- The snippet code actually looks like the equation environment it produces.
       [[
       \begin{align*}
@@ -60,7 +60,7 @@ return {
   ),
 
   s(
-    { trig = 'env', snippetType = 'autosnippet' },
+    { trig = 'environment', snippetType = 'autosnippet' },
     fmta(
       [[
       \begin{<>}
