@@ -29,4 +29,7 @@ return {
   s({ trig = 'mf', dscr = 'inserts \\mathfrac{<>} LaTeX command' }, fmt([[\mathfrac{<>}<>]], { i(1), i(2) }, { delimiters = '<>' })),
   s({ trig = 'lp', dscr = 'inserts \\left(<>\\right)<> LaTeX command' }, fmt([[\left(<>\right)<>]], { i(1), i(2) }, { delimiters = '<>' })),
   s({ trig = 'inf', dscr = 'inserts \\infty LaTeX command' }, fmt([[\infty]], {}, { delimiters = '<>' })),
+
+  s({ trig = 'sin', dscr = 'inserts \\infty LaTeX command' }, fmt([[\sin]], {}, { delimiters = '<>' })),
+  s({ trig = 'cos', dscr = 'inserts \\infty LaTeX command' }, fmt([[\cos]], {}, { delimiters = '<>' })),
 }

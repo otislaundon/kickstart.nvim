@@ -1,6 +1,6 @@
 return {
   s(
-    { trig = 'equation', dscr = 'A LaTeX equation environment' },
+    { trig = 'equation', dscr = 'A LaTeX equation environment', priority = -1 },
     fmt( -- The snippet code actually looks like the equation environment it produces.
       [[
       \begin{equation}
