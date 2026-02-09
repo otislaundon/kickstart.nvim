@@ -6,7 +6,7 @@ vim.g.maplocalleader = ','
 -- vim: ts=2 sts=2 sw=2 et
 
 -- Set to true if you have a Nerd Font installed and selected in the terminal
-vim.g.have_nerd_font = false
+vim.g.have_nerd_font = true
 
 -- [[ Basic Keymaps ]]
 require 'keymaps'
@@ -19,4 +19,3 @@ require 'lazy-plugins'
 
 -- [[ Setting options ]]
 require 'options'
-
