@@ -1,12 +1,27 @@
 return {
   -- Examples of Greek letter snippets, autotriggered for efficiency
-  s({ trig = ';a', snippetType = 'autosnippet', priority = -100 }, {
-    t '\\alpha',
-  }),
-  s({ trig = ';b', snippetType = 'autosnippet', priority = 100 }, {
-    t '\\beta',
-  }),
-  s({ trig = ';g', snippetType = 'autosnippet', priority = 100 }, {
-    t '\\gamma',
-  }),
+  s({ trig = 'alpha', snippetType = 'autosnippet', priority = -100 }, { t '\\alpha' }),
+  s({ trig = 'beta', snippetType = 'autosnippet', priority = -100 }, { t '\\beta' }),
+  s({ trig = 'gamma', snippetType = 'autosnippet', priority = -100 }, { t '\\gamma' }),
+  s({ trig = 'delta', snippetType = 'autosnippet', priority = -100 }, { t '\\delta' }),
+  s({ trig = 'epsilon', snippetType = 'autosnippet', priority = -100 }, { t '\\epsilon' }),
+  s({ trig = 'zeta', snippetType = 'autosnippet', priority = -100 }, { t '\\zeta' }),
+  s({ trig = 'eta', snippetType = 'autosnippet', priority = -100 }, { t '\\eta' }),
+  s({ trig = 'theta', snippetType = 'autosnippet', priority = -100 }, { t '\\theta' }),
+  s({ trig = 'iota', snippetType = 'autosnippet', priority = -100 }, { t '\\iota' }),
+  s({ trig = 'kappa', snippetType = 'autosnippet', priority = -100 }, { t '\\kappa' }),
+  s({ trig = 'lambda', snippetType = 'autosnippet', priority = -100 }, { t '\\lambda' }),
+  s({ trig = 'mu', snippetType = 'autosnippet', priority = -100 }, { t '\\mu' }),
+  s({ trig = 'nu', snippetType = 'autosnippet', priority = -100 }, { t '\\nu' }),
+  s({ trig = 'xi', snippetType = 'autosnippet', priority = -100 }, { t '\\xi' }),
+  s({ trig = 'omicron', snippetType = 'autosnippet', priority = -100 }, { t '\\omicron' }),
+  s({ trig = 'pi', snippetType = 'autosnippet', priority = -100 }, { t '\\pi' }),
+  s({ trig = 'rho', snippetType = 'autosnippet', priority = -100 }, { t '\\rho' }),
+  s({ trig = 'sigma', snippetType = 'autosnippet', priority = -100 }, { t '\\sigma' }),
+  s({ trig = 'tau', snippetType = 'autosnippet', priority = -100 }, { t '\\tau' }),
+  s({ trig = 'upsilon', snippetType = 'autosnippet', priority = -100 }, { t '\\upsilon' }),
+  s({ trig = 'phi', snippetType = 'autosnippet', priority = -100 }, { t '\\phi' }),
+  s({ trig = 'chi', snippetType = 'autosnippet', priority = -100 }, { t '\\chi' }),
+  s({ trig = 'psi', snippetType = 'autosnippet', priority = -100 }, { t '\\psi' }),
+  s({ trig = 'omega', snippetType = 'autosnippet', priority = -100 }, { t '\\omega' }),
 }
