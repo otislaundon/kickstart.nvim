@@ -32,4 +32,6 @@ return {
 
   s({ trig = 'sin', dscr = 'inserts \\infty LaTeX command' }, fmt([[\sin]], {}, { delimiters = '<>' })),
   s({ trig = 'cos', dscr = 'inserts \\infty LaTeX command' }, fmt([[\cos]], {}, { delimiters = '<>' })),
+  s({ trig = 'sinh', dscr = 'inserts \\infty LaTeX command' }, fmt([[\sinh]], {}, { delimiters = '<>' })),
+  s({ trig = 'cosh', dscr = 'inserts \\infty LaTeX command' }, fmt([[\cosh]], {}, { delimiters = '<>' })),
 }
