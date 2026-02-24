@@ -39,16 +39,6 @@ smap <silent><expr> <Tab> luasnip#jumpable(1) ? '<Plug>luasnip-jump-next' : '<Ta
 imap <silent><expr> <S-Tab> luasnip#jumpable(-1) ? '<Plug>luasnip-jump-prev' : '<S-Tab>'
 smap <silent><expr> <S-Tab> luasnip#jumpable(-1) ? '<Plug>luasnip-jump-prev' : '<S-Tab>'
 ]]
-
-function CreateVisualisation(name)
-  print(name)
-end
-
-function PropmtVisualisation()
-  vim.ui.input({ prompt = 'Visualisation name?' }, CreateVisualisation)
-end
-vim.keymap.set('n', '<leader>iv', PropmtVisualisation, { noremap = true })
-
 -- Gilles Castel - inkscape-figures
 --vim.cmd [[
 --inoremap <C-f> <Esc>: silent exec '.!inkscape-figures create "'.getline('.').'" "'.b:vimtex.root.'/figures/"'<CR><CR>:w<CR>
