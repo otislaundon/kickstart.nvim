@@ -1,1 +1,1 @@
-vim.keymap.set('i', '<c-b>', '\\mathbf{}<esc>i')
+vim.keymap.set('i', '<c-b>', '\\tetxbf{}<esc>i')
