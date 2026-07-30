@@ -27,6 +27,8 @@ vim.keymap.set('n', '<leader>b', ':bn<CR>', { desc = 'go to next buffer' })
 
 vim.keymap.set('n', '<leader>w', ':w<CR>', { desc = '[w]rite current file' })
 
+vim.keymap.set('n', '<leader>z', ':ZenMode<CR>:lua print(" ")<CR>', { desc = 'toggle [z]en mode' })
+
 --luasnip keymaps
 -- Yes, we're just executing a bunch of Vimscript, but this is the officially
 -- endorsed method; see https://github.com/L3MON4D3/LuaSnip#keymaps

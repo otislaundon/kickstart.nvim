@@ -79,3 +79,8 @@ vim.o.relativenumber = true
 
 -- NOTE: i dont know where is best to put this line, so putting it here for now.
 require('luasnip.loaders.from_lua').lazy_load { paths = '~/.config/nvim/LuaSnip/' }
+
+-- ipynb configuration
+require('ipynb').setup()
+vim.api.nvim_set_hl(0, 'JupyterCell', { fg = '#61AFEF', bold = true })
+vim.api.nvim_set_hl(0, 'JupyterInlineOutput', { bg = '#264f78' })
